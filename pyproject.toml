@@ -1,0 +1,8 @@
+[project]
+name = "graph2doc"
+version = "0.1.0"
+description = "Convert ASCII tree diagrams into real filesystem structures."
+dependencies = []
+
+[project.scripts]
+graph2doc = "graph2doc.cli:main"
