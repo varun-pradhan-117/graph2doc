@@ -1,6 +1,6 @@
 [project]
 name = "graph2doc"
-version = "0.1.0"
+version = "0.1.1"
 description = "Convert ASCII tree diagrams into real filesystem structures."
 dependencies = []
 readme = "README.md"
