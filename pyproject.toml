@@ -3,6 +3,19 @@ name = "graph2doc"
 version = "0.1.0"
 description = "Convert ASCII tree diagrams into real filesystem structures."
 dependencies = []
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "flower"}
+]
+
 
 [project.scripts]
 graph2doc = "graph2doc.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/varun-pradhan-117/graph2doc"
